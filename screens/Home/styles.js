@@ -43,7 +43,8 @@ const styles = StyleSheet.create({
         width: 200,
         height: 40,
         marginLeft: 25,
-        borderRadius: 10
+        borderRadius: 10,
+        marginBottom: 50
     },
     buttonText: {
         fontSize: 16,
