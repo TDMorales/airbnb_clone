@@ -24,6 +24,8 @@ const styles = StyleSheet.create({
     description: {
         fontSize: 15,
         lineHeight: 30,
+        // fontWeight: 'bold',
+        fontFamily: 'Montserrat_400Regular'
     },
     prices: {
         marginVertical: 10,
@@ -33,6 +35,7 @@ const styles = StyleSheet.create({
     total: {
         color: 'grey',
         textDecorationLine: 'underline',
+        marginBottom: 15
     }
 })
 
