@@ -4,6 +4,9 @@ const width = Dimensions.get('screen').width
 const height = Dimensions.get('screen').height
 
 const styles = StyleSheet.create({
+    container: {
+        zIndex: 1,
+    },
     buttonSearch: {
         flexDirection: 'row',
         justifyContent: 'center',
@@ -15,6 +18,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 50,
         zIndex: 1,
+        marginTop: 40,
         marginHorizontal: 10,
         borderRadius: 30
     },
