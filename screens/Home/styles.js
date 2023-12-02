@@ -17,25 +17,6 @@ const styles = StyleSheet.create({
         width: '70%',
         marginLeft: 25
     },
-    buttonSearch: {
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'white',
-        width: width - 20,
-        height: 60,
-        borderRadius: 10,
-        position: 'absolute',
-        top: 50,
-        zIndex: 1,
-        marginHorizontal: 10,
-        borderRadius: 30
-    },
-    buttonSearchText: {
-        marginLeft: 15,
-        fontSize: 16,
-        fontWeight: 'bold'
-    },
     button: {
         justifyContent: 'center',
         alignItems: 'center',

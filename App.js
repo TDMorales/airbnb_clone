@@ -6,6 +6,7 @@ import Post from './components/Post/Post';
 import data from './assets/dummy_data/feed';
 import { useFonts, Montserrat_100Thin, Montserrat_600SemiBold, Montserrat_400Regular } from '@expo-google-fonts/montserrat';
 import SearchResults from './screens/SearchResults/SearchResults';
+import DestinationSearch from './screens/DestinationSearch/DestinationSearch';
 
 
 export default function App() {
@@ -22,7 +23,8 @@ export default function App() {
     <SafeAreaView>
       {/* <StatusBar /> */}
       {/* <HomeScreen /> */}
-      <SearchResults posts={data} />
+      {/* <SearchResults posts={data} /> */}
+      <DestinationSearch />
     </SafeAreaView>
   );
 }
