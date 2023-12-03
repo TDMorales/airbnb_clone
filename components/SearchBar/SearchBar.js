@@ -4,10 +4,10 @@ import React from 'react'
 import styles from './styles'
 
 
-const SearchBar = (props) => {
+const SearchBar = ({ nav, screen }) => {
     return (
         <View style={styles.container}>
-            <Pressable style={styles.buttonSearch} onPress={() => console.warn('Search button has been pressed')}>
+            <Pressable style={styles.buttonSearch} onPress={() => nav.navigate(screen)}>
                 <Fontisto name='search' size={24} color={'#f15454'} />
                 <Text style={styles.buttonSearchText}>Where are you going?</Text>
             </Pressable>

@@ -2,10 +2,10 @@ import React from 'react'
 import { View, Text, ImageBackground, Pressable } from 'react-native'
 import styles from './styles'
 import SearchBar from '../../components/SearchBar/SearchBar'
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
     return (
         <View>
-            <SearchBar />
+            <SearchBar nav={navigation} screen={"Destination Search"} />
             <ImageBackground source={require('../../assets/images/wallpaper.jpg')} style={styles.image} >
                 <Text style={styles.title}>Go Near</Text>
                 <Pressable style={styles.button} onPress={() => console.warn('Button has been pressed')}>

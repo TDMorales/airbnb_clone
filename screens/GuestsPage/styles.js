@@ -1,6 +1,10 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+    container: {
+        justifyContent: 'space-between',
+        height: '100%'
+    },
     row: {
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -15,7 +19,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         alignItems: 'center'
     },
-    button: {
+    operatorButton: {
         width: 30,
         height: 30,
         borderRadius: 20,
@@ -41,6 +45,20 @@ const styles = StyleSheet.create({
     },
     secondaryTitle: {
         color: "#7c7c7c"
+    },
+    searchButton: {
+        backgroundColor: '#f15454',
+        marginBottom: 30,
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 50,
+        marginHorizontal: 20,
+        borderRadius: 10
+    },
+    searchText: {
+        fontSize: 20,
+        fontWeight: "bold",
+        color: 'white',
     }
 });
 
